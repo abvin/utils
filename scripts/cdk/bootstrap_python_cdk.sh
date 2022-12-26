@@ -59,3 +59,4 @@ EOF
 pre-commit install
 pre-commit run --all-files
 
+echo "Setup remote origin: git remote add origin https://github.com/USER/REPO.git"
