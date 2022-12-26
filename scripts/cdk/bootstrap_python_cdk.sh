@@ -22,8 +22,11 @@ rm -rf tests
 pip install -r requirements.txt
 popd
 
-# Move .gitignore to root
+# Move .gitignore and README to root
 mv src/infra/.gitignore .
+mv src/infra/README.md .
+mv src/infra/requirements*.txt .
+mv src/infra/source.bat .
 
 # Pre-commit config
 pip install pre-commit
